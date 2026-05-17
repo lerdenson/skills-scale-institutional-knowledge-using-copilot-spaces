@@ -1,0 +1,65 @@
+---
+name: "[Process Doc Update]: Add README for OctoAcme Project Management Docs"
+about: "Request to add new content or updates to an existing program management process document."
+title: "[Process Doc Update]: Add README for OctoAcme Project Management Docs with Process Summary and Links"
+labels: ["documentation", "process improvement"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      value: |
+        ## Issue Details
+
+        **Process Document:** <new document> - OctoAcme Project Management Docs README
+
+        ### Summary of New Content
+        Create a comprehensive README for the OctoAcme Project Management Docs that:
+        - Provides a brief overview of OctoAcme project management processes
+        - Includes links to all existing process documentation in the docs/ folder
+        - Serves as a central navigation hub for team members and new contributors
+
+        ### Why is this update needed?
+        The project management process documents are currently scattered without a clear entry point. A README would:
+        - Improve discoverability of existing process documentation
+        - Provide a quick orientation for new team members
+        - Centralize scattered project management knowledge in one accessible location
+        - Help teams understand the complete project lifecycle and key artifacts
+        - Align with the purpose of scaling institutional knowledge using Copilot Spaces
+
+        ### Suggested Content
+        The README should include:
+
+        1. **Project Management Overview**
+           - Brief summary of OctoAcme principles (customer-first, iterative delivery, clear ownership, data-informed, psychological safety)
+           - Scope: applies to all cross-functional projects
+           - High-level project lifecycle stages
+
+        2. **Quick Navigation Links**
+           - OctoAcme Project Management Overview
+           - OctoAcme Project Initiation Guide
+           - OctoAcme Project Planning
+           - OctoAcme Execution & Tracking
+           - OctoAcme Risk Management & Communication
+           - OctoAcme Release & Deployment Guide
+           - OctoAcme Retrospective & Continuous Improvement
+           - OctoAcme Roles & Personas
+
+        3. **Core Process Summary**
+           - Lifecycle: Initiation → Planning → Execution → Release → Close & Retrospective
+           - Key roles: PM, PdM, Developers, QA/Testing, Stakeholders
+           - Core artifacts: Charter, Roadmap, Backlog, Acceptance Criteria, Risk Register, Retrospectives
+           - Communication cadence overview
+
+        4. **How to Use These Docs**
+           - Instructions for teams to access and maintain documentation
+           - Guidance on updating docs as processes evolve
+           - Reference to Copilot Spaces for context-specific assistance
+
+        ### Acceptance Criteria
+        - ✅ Content aligns with existing process docs
+        - ✅ Update improves clarity or closes a documented gap
+        - ✅ Proposed content has been reviewed with stakeholders (if needed)
+
+        ### Files Involved
+        Location: `docs/README.md` (new file)
+        Related docs: All files in `docs/` folder
